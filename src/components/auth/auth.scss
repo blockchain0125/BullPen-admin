@@ -1,0 +1,49 @@
+.auth-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 70px;
+	@media screen and (max-width: 1200px) {
+		padding-top: 100px;
+	}
+	@media screen and (max-width: 1030px) {
+		padding-top: 150px;
+	}
+	@media screen and (max-width: 860px) {
+		padding-top: 200px;
+	}
+}
+
+.auth-bull-img {
+	width: 300px;
+	@media screen and (max-width: 1200px) {
+		width: 250px;
+	}
+	@media screen and (max-width: 1030px) {
+		width: 200px;
+	}
+	@media screen and (max-width: 860px) {
+		width: 100px;
+	}
+}
+
+.auth-text {
+	color: #a1602b;
+	font-size: 75px;
+	font-weight: 700;
+	font-family: "monospace";
+	letter-spacing: "0.03em";
+	@media screen and (max-width: 1200px) {
+		font-size: 70px;
+	}
+	@media screen and (max-width: 1030px) {
+		font-size: 60px;
+	}
+	@media screen and (max-width: 860px) {
+		font-size: 40px;
+	}
+}
+
+.auth-link {
+	color: rgb(61, 61, 243);
+}
